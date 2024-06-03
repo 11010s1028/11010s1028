@@ -1,6 +1,6 @@
 name: 自動チェック（静的解析ツール＋実行結果）
 on:
-  # push:
+  push:
   pull_request:
     paths:
       - "**/SO*.c"
