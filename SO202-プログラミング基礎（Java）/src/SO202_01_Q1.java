@@ -22,7 +22,7 @@ Audit done.
 
 
 // ここより下に解答を記載する。
-public class SO202_01_Q1 {
+public class SO202_01_Q1{
 	public static void main(String[]args){
 		System.out.println("ハローワールド！！");
 	}
