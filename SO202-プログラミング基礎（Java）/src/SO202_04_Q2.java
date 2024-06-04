@@ -29,3 +29,23 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_04_Q1 {
+  public static void main(String[] args) {
+
+  int a = 6;
+  int b = 7;
+
+  int and, xor, ab, ashif;
+
+  and = a & b;
+  xor = a ^ b;
+  ab = ~a;
+  ashif = a << 3;
+
+  System.out.println(and);
+  System.out.println(xor);
+  System.out.println(ab);
+  System.out.println(ashif);
+    
+  }
+}
