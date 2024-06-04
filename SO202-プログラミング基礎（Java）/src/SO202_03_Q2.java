@@ -23,3 +23,11 @@ He said "Hello World!!".
 
 
 // ここより下に解答を記載する。
+public class SO202_03_Q2 {
+    public static void main(String[] args) {
+
+    int A = "He said "Hello World!!".";
+
+    System.out.println (A);
+    }
+}
