@@ -25,3 +25,11 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_04_Q1 {
+  public static void main(String[] args) {
+
+    int A;
+    int B;
+
+    A = 11 / 3;
+    
