@@ -34,14 +34,11 @@ public class SO202_04_Q2 {
 
   int a = 6;
   int b = 7;
-
   int and, xor, ab, ashif;
-
   and = a & b;
   xor = a ^ b;
   ab = ~a;
   ashif = a << 3;
-
   System.out.println(and);
   System.out.println(xor);
   System.out.println(ab);
