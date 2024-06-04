@@ -35,7 +35,7 @@ public class SO202_03_Q1 {
         String hex = "1000";
         double c = 0.56;
         double d = 7.8 * 10;
-        int total = 1;
+        double total = 1;
 
         int i = Integer.parseInt(bin, 2); //2 → 10変換
         int j = Integer.parseInt(hex, 16); //16 → 10変換
