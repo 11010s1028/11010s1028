@@ -33,7 +33,7 @@ Audit done.
 // ここより下に解答を記載する。
 public class SO202_02_Q1 {
   public static void main(String[] args) {
-    for (9nt i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
       System.out.println("これはJavaの例文です。");
     }
   }
