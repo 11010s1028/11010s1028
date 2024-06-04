@@ -29,13 +29,12 @@ public class SO202_04_Q1 {
   public static void main(String[] args) {
     
     int a;
-    double b;
+    int b;
 
     a = 11 / 3;
     b = 11 % 3;
 
     System.out.println(a);
-    System.out.printf(%3d, b);
+    System.out.println(b);
   }
-}
-    
+}    
