@@ -51,7 +51,7 @@ public class SO202_03_Q1 {
         System.out.printf("%d\n", i);
         System.out.printf("%d\n", j);
         System.out.printf("%.2f\n", c);
-        System.out.println(d);
+        System.out.println(d\n);
     }
 }
 
