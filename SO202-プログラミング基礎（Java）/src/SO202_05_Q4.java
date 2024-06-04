@@ -27,3 +27,13 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_05_Q4 {
+  public static void main(String[] args) {
+
+    int num = 15;
+    while (num < 20) {
+      System.out.printf("%d\n", num);
+      num += 1;
+    }
+  }
+}
