@@ -23,3 +23,13 @@ GoodMorning
 
 
 // ここより下に解答を記載する。
+public class SO202_04_Q3 {
+  public static void main(String[] args) {
+
+    int total = "Good" + "Morning";
+
+    System.out.println(total);
+
+  }
+}
+    
