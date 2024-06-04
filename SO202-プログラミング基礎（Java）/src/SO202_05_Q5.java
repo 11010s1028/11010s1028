@@ -23,3 +23,14 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_05_Q5 {
+  public static void main(String[] args) {
+
+    for (int i = 5; i < 10; i++) {
+      if (i % 2 == 0) {
+        break;
+      }
+      System.out.printf("%d\n", i);
+    }
+  }
+}
