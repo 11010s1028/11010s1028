@@ -29,30 +29,31 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+import java.lang.Math;
+
 public class SO202_03_Q1 {
     public static void main(String[] args) {
         String bin = "1000";
         String hex = "1000";
         double c = 0.56;
-        double d;
-        double total = 1;
+        double d = 7.8;
 
         int i = Integer.parseInt(bin, 2); //2 → 10変換
         int j = Integer.parseInt(hex, 16); //16 → 10変換
 
-        d = 7.8 * 10;
+        double bottom = 10;   // 底
+        double index = 9;    // 指数
 
-        for(int k = 0; k < 9; k++){
-            total = c * total;
-        }
+        double result = Math.pow(bottom, index);
 
-        System.out.printf("%d", i);
-        System.out.printf("%d", j);
-        System.out.printf("%f", c);
-        System.out.printf("%d", total);
+        d = d * result;
+
+        System.out.printf("%d\n", i);
+        System.out.printf("%d\n", j);
+        System.out.printf("%.2f\n", c);
+        System.out.println(d);
     }
 }
-
 
         
 
