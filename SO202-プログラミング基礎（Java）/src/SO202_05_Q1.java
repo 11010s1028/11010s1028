@@ -26,17 +26,17 @@ numは、50未満の数字です。
 public class SO202_05_Q1 {
   public static void main(String[] args) {
 
-  int num = 30;
+    int num = 30;
 
-  if (num < 50) {
-    System.out.println("numは、50未満の数字です。");
-  }
-  else if (num < 80) {
-    System.out.println("numは、50以上80未満の数字です。");
-  }
-  else {
-    System.out.println("numは、80以上の数字です。");
-  }
+    if (num < 50) {
+      System.out.println("numは、50未満の数字です。");
+    }
+    else if (num < 80) {
+      System.out.println("numは、50以上80未満の数字です。");
+    }
+    else {
+      System.out.println("numは、80以上の数字です。");
+    }
   }
 }
 
