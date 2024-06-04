@@ -25,9 +25,7 @@ He said "Hello World!!".
 // ここより下に解答を記載する。
 public class SO202_03_Q2 {
     public static void main(String[] args) {
-
-    String msg = "He said \"Hello World!!\".";
-
-    System.out.println (msg);
+        String msg = "He said \"Hello World!!\".";
+        System.out.println (msg);
     }
 }
