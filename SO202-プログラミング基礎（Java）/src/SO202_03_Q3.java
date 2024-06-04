@@ -26,16 +26,10 @@ Audit done.
 
 
 // ここより下に解答を記載する。
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class SO202_03_Q3 {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>(Arrays.asList(1,2,3,4));
-
-    for(int i = 0; i < list.size(); i++) {
-        System.out.println(list.get(i));
+        int[] l = new int[] {1,2,3,4};
+        System.out.println(l [0]);
     }
+    
     }
-}
