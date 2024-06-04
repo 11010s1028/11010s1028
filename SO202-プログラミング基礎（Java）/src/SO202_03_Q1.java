@@ -37,8 +37,8 @@ public class SO202_03_Q1 {
         String hex = "1000";
         double c = 0.56;
         double d = 7.8;
-        int i = Integer.parseInt(bin, 2); //2 → 10変換
-        int j = Integer.parseInt(hex, 16); //16 → 10変換
+        int i = Integer.parseInt(bin, 2); // 2 → 10変換
+        int j = Integer.parseInt(hex, 16); // 16 → 10変換
         double bottom = 10;   // 底
         double index = 9;    // 指数
         double result = Math.pow(bottom, index);
