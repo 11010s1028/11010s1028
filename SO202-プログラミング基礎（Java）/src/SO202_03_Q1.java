@@ -40,7 +40,7 @@ public class SO202_03_Q1 {
         int i = Integer.parseInt(bin, 2); //2 → 10変換
         int j = Integer.parseInt(hex, 16); //16 → 10変換
 
-        for(int i = 0; i < 9; i++){
+        for(int k = 0; k < 9; k++){
             total = c * total;
         }
 
