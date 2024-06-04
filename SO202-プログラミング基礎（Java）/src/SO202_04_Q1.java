@@ -28,14 +28,14 @@ Audit done.
 public class SO202_04_Q1 {
   public static void main(String[] args) {
     
-    int A;
-    double B;
+    int a;
+    double b;
 
-    A = 11 / 3;
-    B = 11 % 3;
+    a = 11 / 3;
+    b = 11 % 3;
 
-    System.out.println(A);
-    System.out.println(B);
+    System.out.println(a);
+    System.out.println(b);
   }
 }
     
