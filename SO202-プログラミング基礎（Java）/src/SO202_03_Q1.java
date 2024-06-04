@@ -44,9 +44,9 @@ public class SO202_03_Q1 {
     d = d * result;
     System.out.printf("%d\n", i);
     System.out.printf("%d\n", j);
-      double c = 0.56;
-      System.out.printf("%.2f\n", c);
-      System.out.println(d);
+    double c = 0.56;
+    System.out.printf("%.2f\n", c);
+    System.out.println(d);
   }
 }
 
