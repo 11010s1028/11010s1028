@@ -27,5 +27,5 @@ public class SO202_03_Q2 {
   public static void main(String[] args) {
     String msg = "He said \"Hello World!!\".";
     System.out.println(msg);
-    }
+  }
 }
