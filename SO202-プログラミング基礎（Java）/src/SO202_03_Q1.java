@@ -29,3 +29,31 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_03_Q1 {
+    public static void main(String[] args) {
+        String bin = "1000";
+        String hex = "1000";
+        double c = 0.56;
+        double d;
+
+        int i = Integer.parseInt(bin, 2); //2 → 10変換
+        int j = Integer.parseInt(hex, 16); //16 → 10変換
+
+        d = (7.8 * 10)^9;
+
+        System.out.printf("%d", i);
+        System.out.printf("%d", j);
+        System.out.printf("%f", c);
+        System.out.printf("%d", d);
+    }
+}
+
+
+        
+
+        
+        
+
+        
+        
+
