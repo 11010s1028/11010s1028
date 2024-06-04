@@ -34,11 +34,13 @@ public class SO202_03_Q1 {
         String bin = "1000";
         String hex = "1000";
         double c = 0.56;
-        double d = 7.8 * 10;
+        double d;
         double total = 1;
 
         int i = Integer.parseInt(bin, 2); //2 → 10変換
         int j = Integer.parseInt(hex, 16); //16 → 10変換
+
+        d = 7.8 * 10;
 
         for(int k = 0; k < 9; k++){
             total = c * total;
