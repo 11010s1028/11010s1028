@@ -33,11 +33,17 @@ public class SO202_04_Q2 {
   public static void main(String[] args) {
     int a = 6;
     int b = 7;
-    int and, xor, ab, ashif;
-      
+    
+    int and;
     and = a & b;
+
+    int xor;  
     xor = a ^ b;
+
+    int ab;
     ab = ~a;
+
+    int ashif;  
     ashif = a << 3;
   
     System.out.println(and);
