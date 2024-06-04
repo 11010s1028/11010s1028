@@ -30,11 +30,9 @@ public class SO202_05_Q1 {
 
     if (num < 50) {
       System.out.println("numは、50未満の数字です。");
-    }
-    else if (num < 80) {
+    } else if (num < 80) {
       System.out.println("numは、50以上80未満の数字です。");
-    }
-    else {
+    } else {
       System.out.println("numは、80以上の数字です。");
     }
   }
