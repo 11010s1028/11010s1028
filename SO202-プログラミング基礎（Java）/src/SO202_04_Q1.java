@@ -35,7 +35,7 @@ public class SO202_04_Q1 {
     b = 11 % 3;
 
     System.out.println(a);
-    System.out.println(b);
+    System.out.printf(%3d, b);
   }
 }
     
