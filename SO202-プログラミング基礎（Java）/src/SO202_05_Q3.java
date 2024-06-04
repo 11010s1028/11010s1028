@@ -33,3 +33,11 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_05_Q3 {
+  public static void main(String[] args) {
+
+    for (int i = 10; i < 21; i++) {
+      System.out.printf("%d\n", i);
+    }
+  }
+}
