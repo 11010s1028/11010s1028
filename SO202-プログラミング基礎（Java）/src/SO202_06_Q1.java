@@ -31,6 +31,6 @@ public class SO202_06_Q1 {
 
   public static void main(String[] args) {
     double num = plus(7.8, 3.4);
-    System.out.printf("%.1f\n", num);
+    System.out.printf("%f\n", num);
   }
 }
