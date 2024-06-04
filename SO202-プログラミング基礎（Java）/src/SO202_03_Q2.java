@@ -26,8 +26,8 @@ He said "Hello World!!".
 public class SO202_03_Q2 {
     public static void main(String[] args) {
 
-    int A = "He said "Hello World!!".";
+    String msg = "He said \"Hello World!!\".";
 
-    System.out.println (A);
+    System.out.println (msg);
     }
 }
