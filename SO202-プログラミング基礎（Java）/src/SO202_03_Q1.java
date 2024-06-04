@@ -34,17 +34,20 @@ public class SO202_03_Q1 {
         String bin = "1000";
         String hex = "1000";
         double c = 0.56;
-        double d;
+        double d = 7.8 * 10;
+        int total = 1;
 
         int i = Integer.parseInt(bin, 2); //2 → 10変換
         int j = Integer.parseInt(hex, 16); //16 → 10変換
 
-        d = (7.8 * 10)^9;
+        for(int i = 0; i < 9; i++){
+            total = c * total;
+        }
 
         System.out.printf("%d", i);
         System.out.printf("%d", j);
         System.out.printf("%f", c);
-        System.out.printf("%d", d);
+        System.out.printf("%d", total);
     }
 }
 
