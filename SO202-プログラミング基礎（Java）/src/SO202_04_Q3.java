@@ -26,7 +26,7 @@ GoodMorning
 public class SO202_04_Q3 {
   public static void main(String[] args) {
 
-    int total = "Good" + "Morning";
+    String total = "Good" + "Morning";
 
     System.out.println(total);
 
