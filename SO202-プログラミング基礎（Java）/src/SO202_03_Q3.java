@@ -27,9 +27,8 @@ Audit done.
 
 // ここより下に解答を記載する。
 public class SO202_03_Q3 {
-    public static void main(String[] args) {
-        int[] l = new int[] {1,2,3,4};
-        System.out.println(l [0]);
-    }
-    
-    }
+  public static void main(String[] args) {
+    int[] l = new int[] {1,2,3,4};
+    System.out.println(l [0]);
+  }
+}
