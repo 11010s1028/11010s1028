@@ -30,6 +30,7 @@ Audit done.
 
 // ここより下に解答を記載する。
 import java.lang.Math;
+
 public class SO202_03_Q1 {
     public static void main(String[] args) {
         String bin = "1000";
