@@ -44,3 +44,25 @@ FizzBuzz
 
 
 // ここより下に解答を記載する。
+public class SO202_09_Q2 {
+  public static void main(String[] args) {
+    
+    //ターミナルにてコマンドライン引数の指定
+
+    if(args.length != (0 | 3)) {
+
+    for (int i = 0; i < args[1]; i++) {
+
+      if(args[i] = ((i % 3 == 0) | (i % 5 == 0))){
+
+        System.out.println("FizzBuzz");
+
+      } else if {
+        if(args[i] = (i % 3 == 0)) {
+          System.out.println("Fizz");
+        } else if {
+          System.out.println("Buzz");
+        
+      System.out.println(args[i]);
+      
+    
