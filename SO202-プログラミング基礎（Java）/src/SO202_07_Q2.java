@@ -29,7 +29,7 @@ import java.time.format.DateTimeFormatter;
 public class SO202_07_Q2 {
   public static void main(String[] args) {
 
-    LocalDateTime date = LocalDateTime.now();
+    LocalDateTime date = LocalDateTime.of(2000, 1, 2, 3, 4, 5);
 
     DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
     System.out.println(date.format(f));
