@@ -26,6 +26,8 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+import java.io.FileReader;
+
 public class SO202_08_Q1 {
   public static void main(String[] args) {
     
@@ -45,6 +47,13 @@ public class SO202_08_Q1 {
         //読み込んだ文字を出力する
       System.out.printf("%c", c);
       }
+      //ファイルを閉じる
+      fr.close();
+      
+      } catch (Exception ex) {
+        System.out.println("例外が発生しました。");
+    } finally {
+        System.out.println("処理を終了します。");
     }
   }
 }
