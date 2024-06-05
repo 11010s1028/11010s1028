@@ -23,13 +23,3 @@ Audit done.
 
 
 // ここより下に解答を記載する。
-public class SO202_06_Q4 {
-  public static void main(String[] args) {
-    
-    double num1 = -2.4;
-
-    num1 = Math.abs(num1);
-
-    System.out.printf("%f", num1);
-  }
-}
