@@ -23,3 +23,18 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class SO202_07_Q2 {
+  public static void main(String[] args) {
+
+    LocalDateTime date = LocalDateTime.now();
+
+    DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    System.out.println(date.format(f));
+
+  }
+}
+
+        
