@@ -44,16 +44,15 @@ public class SO202_08_Q1 {
         if (c == -1) {
           break;
         }
-        //読み込んだ文字を出力する
-      System.out.printf("%c", c);
+      //読み込んだ文字を出力する
+        System.out.printf("%c", c);
       }
       //ファイルを閉じる
       fr.close();
-      
-      } catch (Exception ex) {
-        System.out.println("例外が発生しました。");
+    } catch (Exception ex) {
+      System.out.println("例外が発生しました。");
     } finally {
-        System.out.println("処理を終了します。");
+      System.out.println("処理を終了します。");
     }
   }
 }
