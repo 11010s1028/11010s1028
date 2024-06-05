@@ -56,17 +56,17 @@ class Student {
 
   }
 
-    String introduce() {
+　　String introduce() {
+    
+    String text = String.format("私の名前は%sです。\n", this.name);
 
-      String text = String.format("私の名前は%sです。\n", this.name);
+    text += String.format("%sの%sに入っています。\n", school, this.club);
 
-      text += String.format("%sの%sに入っています。\n", school, this.club);
+    text += String.format("私の好きな教科は%sです。\n", this.subject);
 
-      text += String.format("私の好きな教科は%sです。\n", this.subject);
-
-      return text;
-    }
+    return text;
   }
+}
 
 
 public class SO202_07_Q1 {
