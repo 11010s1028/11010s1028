@@ -23,3 +23,14 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_06_Q2 {
+  static double plus(double num1, double num2) {
+    double x = num1 - num2;
+    return x;
+  }
+
+  public static void main(String[] args) {
+    double num = plus(7.8, 3.4);
+    System.out.printf("%f\n", num);
+  }
+}
