@@ -13,8 +13,8 @@ class Student {
     this.subject = subject;
 
   }
-
-　　String introduce() {
+  
+  String introduce() {
     
     String text = String.format("私の名前は%sです。\n", this.name);
 
