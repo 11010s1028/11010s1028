@@ -28,3 +28,24 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+import java.io.FileWriter;
+
+public class SO202_08_Q2 {
+  public static void main(String[] args) {
+
+    try {
+      //ファイルを開く
+      FileWriter fw = new FileWriter("./SO202_08_Q3_output.txt");
+
+      //ファイルに書き出す
+      fw.write("ジャバ\n");
+
+      //ファイルを閉じる
+      fw.close();
+    } catch (Exception ex) {
+      System.out.println("例外が発生しました。");
+    } finally {
+      System.out.println("処理を終了します。");
+    }
+  }
+}
