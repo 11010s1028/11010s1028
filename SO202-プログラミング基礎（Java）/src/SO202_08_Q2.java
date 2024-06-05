@@ -36,7 +36,7 @@ public class SO202_08_Q2 {
       FileWriter fw = new FileWriter("./SO202_08_Q2_output.txt");
 
       //ファイルに書き出す
-      fw.write("Good morning\n");
+      fw.write("おはようございます。\n");
 
       //ファイルを閉じる
       fw.close();
