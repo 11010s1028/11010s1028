@@ -44,7 +44,7 @@ public class SO202_08_Q1 {
         if (c == -1) {
           break;
         }
-      //読み込んだ文字を出力する
+        //読み込んだ文字を出力する
         System.out.printf("%c", c);
       }
       //ファイルを閉じる
