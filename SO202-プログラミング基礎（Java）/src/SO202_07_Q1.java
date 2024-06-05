@@ -41,19 +41,3 @@ B高校のテニス部に入っています。
 
 
 // ここより下に解答を記載する。
-public class SO202_07_Q1 {
-  public static void main(String[] args) {
-
-    Student yamada = new Student("山田", "野球部", "国語");
-    Student tanaka = new Student("田中", "テニス部", "数学");
-
-    System.out.println(yamada.introduce());
-    System.out.println(tanaka.introduce());
-
-    Student.school = "B高校";
-
-    System.out.println(yamada.introduce());
-    System.out.println(tanaka.introduce());
-
-  }
-}
