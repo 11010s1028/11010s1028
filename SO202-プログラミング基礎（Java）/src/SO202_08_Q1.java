@@ -31,7 +31,7 @@ public class SO202_08_Q1 {
     
     try {
       //ファイルを開く
-      FileReader fr = new FileReader("./input.txt");
+      FileReader fr = new FileReader("./SO202_08_Q1_input.txt");
 
       //ファイルを読み込む
       while (true) {
