@@ -32,8 +32,6 @@ public class SO202_08_Q4 {
       //キーボード入力用のストリームを開く
       Scanner scanner = new Scanner(System.in);
 
-      System.out.println("これはキーボードからの入力です。");
-
       //キーボードからの文字入力を待ち受けます
       String text = scanner.next();
 
