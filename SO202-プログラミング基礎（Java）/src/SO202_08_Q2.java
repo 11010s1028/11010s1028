@@ -26,3 +26,22 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_08_Q2 {
+  public static void main(String[] args) {
+
+    try {
+      //ファイルを開く
+      FileWriter fw = new FileWriter("./SO202_08_Q2_output.txt");
+
+      //ファイルに書き出す
+      fw.write("Good morning\n");
+
+      //ファイルを閉じる
+      fw.close();
+    } catch (Exception ex) {
+      System.out.println("例外が発生しました。");
+    } finally {
+      System.out.println("処理を終了します。");
+    }
+  }
+}
