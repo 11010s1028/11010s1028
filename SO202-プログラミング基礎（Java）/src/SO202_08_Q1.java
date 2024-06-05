@@ -26,25 +26,3 @@ Audit done.
 
 
 // ここより下に解答を記載する。
-public class SO202_08_Q1 {
-  public static void main(String[] args) {
-    
-    try {
-      //ファイルを開く
-      FileReader fr = new FileReader("./SO202_08_Q1_input.txt");
-
-      //ファイルを読み込む
-      while (true) {
-        //１文字読み込む
-        int c = fr.read();
-
-        //ファイルの終端
-        if (c == -1) {
-          break;
-        }
-        //読み込んだ文字を出力する
-      System.out.printf("%c", c);
-      }
-    }
-  }
-}
