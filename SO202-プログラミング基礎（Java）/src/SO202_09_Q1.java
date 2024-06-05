@@ -22,3 +22,17 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_09_Q1 {
+  public static void main(String[] args) {
+    
+    int i;
+    int total = 0;
+
+    for(i = 1; i <=100; i++) {
+      total += i;
+    }
+    System.out.println(total);
+  }
+}
+
+  
