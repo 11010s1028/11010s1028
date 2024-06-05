@@ -31,5 +31,5 @@ public class SO202_06_Q4 {
     num1 = Math.abs(num1);
 
     System.out.printf("%f", num1);
-    }
+  }
 }
