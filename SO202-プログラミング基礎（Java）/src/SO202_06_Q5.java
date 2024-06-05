@@ -25,7 +25,11 @@ Audit done.
 // ここより下に解答を記載する。
 public class SO202_06_Q5 {
   public static void main(String[] args) {
+
+    double num1 = 21;
+
+    num1 = Math.sqrt(num1);
     
-    System.out.println(Math.sqrt(21));
+    System.out.printf("%.3f", num1);
   }
 }
