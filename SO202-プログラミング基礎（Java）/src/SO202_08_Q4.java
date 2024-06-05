@@ -23,3 +23,25 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+public class SO202_08_Q4 {
+  public static void main(String[] args) {
+
+    try {
+      //キーボード入力用のストリームを開く
+      Scanner scanner = new Scanner(System.in);
+
+      System.out.println("これはキーボードからの入力です。");
+
+      //キーボードからの文字入力を待ち受けます
+      String text = scanner.next();
+
+      //読み込んだ文字列を出力する
+      System.out.println(text);
+
+      //キーボード入力用のストリームを閉じる
+      scanner.close();
+    } catch (Exception ex) {
+      System.out.println("例外が発生しました。");
+    } finally {
+      System.out.println("処理を終了します。");
+    }
