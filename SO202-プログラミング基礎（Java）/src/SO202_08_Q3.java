@@ -35,7 +35,7 @@ public class SO202_08_Q3 {
 
     try {
       //ファイルを開く
-      FileWriter fw = new FileWriter("./SO202_08_Q3_output.txt");
+      FileWriter fw = new FileWriter("./SO202_08_Q3_output.txt", true);
 
       //ファイルに書き出す
       fw.write("ジャバ\n");
