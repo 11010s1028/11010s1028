@@ -31,7 +31,7 @@ public class SO202_07_Q2 {
 
     LocalDateTime date = LocalDateTime.of(2000, 1, 2, 3, 4, 5);
 
-    DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH時mm分ss秒");
+    DateTimeFormatter f = DateTimeFormatter.ofPattern("yyyy年M月d日 H時m分s秒");
     System.out.println(date.format(f));
 
   }
