@@ -23,6 +23,8 @@ Audit done.
 
 
 // ここより下に解答を記載する。
+import java.io.FileWriter;
+
 public class SO202_08_Q4 {
   public static void main(String[] args) {
 
