@@ -49,20 +49,32 @@ public class SO202_09_Q2 {
     
     //ターミナルにてコマンドライン引数の指定
 
-    if(args.length != (0 | 3)) {
+    int n = args.length;
 
-    for (int i = 0; i < args[1]; i++) {
-
-      if(args[i] = ((i % 3 == 0) | (i % 5 == 0))){
-
-        System.out.println("FizzBuzz");
-
-      } else if {
-        if(args[i] = (i % 3 == 0)) {
-          System.out.println("Fizz");
-        } else if {
-          System.out.println("Buzz");
+    if(n == 2) {
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[1]);
         
-      System.out.println(args[i]);
-      
+        for(int i = num1; i < num2 + 1; i++) {
+            
+            if(i % 3 == 0 || i % 5 == 0){
+                System.out.println("FizzBuzz");
+                
+                } else if(i % 3 == 0) {
+                    
+                    System.out.println("Fizz");
+                    
+                } else if(i % 5 == 0) {
+                    System.out.println("Buzz"); 
+                    
+                } else {
+                    System.out.println(i);
+                    
+                    }
+        }
     
+    } else {
+      System.out.println("コマンドライン引数が不正です。");
+    }
+  }
+}                
