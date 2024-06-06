@@ -57,7 +57,7 @@ public class SO202_09_Q2 {
         
       for (int i = num1; i < num2 + 1; i++) {
             
-        if (i % 3 == 0 || i % 5 == 0) {
+        if (i % 3 == 0 && i % 5 == 0) {
           System.out.println("FizzBuzz");
         
         } else if (i % 3 == 0) {
