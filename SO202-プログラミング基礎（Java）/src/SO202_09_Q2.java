@@ -48,7 +48,7 @@ public class SO202_09_Q2 {
   public static void main(String[] args) {
     
     //ターミナルにてコマンドライン引数の指定
-
+    
     int n = args.length;
 
     if(n == 2) {
