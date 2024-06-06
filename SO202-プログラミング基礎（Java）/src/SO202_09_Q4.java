@@ -30,5 +30,25 @@ fedcba
 // ここより下に解答を記載する。
 public class SO202_09_Q4 {
   public static void main(String[] args) {
+    
+    //ターミナルにてコマンドライン引数の指定
+    
+    int n = args.length;
 
+    if (n == 0) {
+      System.out.println("コマンドライン引数が不正です。");
+     
+    } else {
+
+      String text = args[0]; //全部入っている
+      
+      for (int i = (text.length() - 1); i >= 0; i--) {
+        System.out.printf("%s", text.charAt(i)); //charAtは()の中身を取り出す
+      }
+
+    }
+
+  }
+
+}
     
