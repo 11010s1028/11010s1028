@@ -52,29 +52,28 @@ public class SO202_09_Q2 {
     int n = args.length;
 
     if (n == 2) {
-        int num1 = Integer.parseInt(args[0]);
-        int num2 = Integer.parseInt(args[1]);
+      int num1 = Integer.parseInt(args[0]);
+      int num2 = Integer.parseInt(args[1]);
         
-        for (int i = num1; i < num2 + 1; i++) {
+      for (int i = num1; i < num2 + 1; i++) {
             
-            if (i % 3 == 0 || i % 5 == 0){
-                System.out.println("FizzBuzz");
-                
-                } else if (i % 3 == 0) {
+        if (i % 3 == 0 || i % 5 == 0){
+        System.out.println("FizzBuzz");
+        
+        } else if (i % 3 == 0) {
+          System.out.println("Fizz");
+        
+        } else if (i % 5 == 0) {
+          System.out.println("Buzz"); 
                     
-                    System.out.println("Fizz");
-                    
-                } else if (i % 5 == 0) {
-                    System.out.println("Buzz"); 
-                    
-                } else {
-                    System.out.println(i);
-                    
-                    }
+        } else {
+          System.out.println(i);
+        
         }
-    
+      }
     } else {
       System.out.println("コマンドライン引数が不正です。");
+      
     }
   }
 }                
