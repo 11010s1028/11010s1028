@@ -49,7 +49,7 @@ public class SO202_09_Q3 {
     
     }
 
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
 
       if (i == 10) {
         System.out.printf("%d", data[i]);
