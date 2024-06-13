@@ -56,7 +56,7 @@ public class SO302_11_Q2_2 {
     String bukatu2 = "テニス部";
 
     String kyouka1 = "国語";
-    String kyouka1 = "数学";
+    String kyouka2 = "数学";
 
     //SO302_11_Q2_1 SO = new SO302_11_Q2_1(); //技：staticじゃないメソッドを使うため
 
