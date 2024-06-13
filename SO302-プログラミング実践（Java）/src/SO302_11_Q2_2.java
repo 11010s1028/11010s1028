@@ -95,7 +95,7 @@ public class SO302_11_Q2_2 {
     
    }
 
-   public static void jiko (String name, String koukou, String bukatu) {
+   public static void jiko (String name, String koukou, String bukatu, String kyouka) {
       
      System.out.println ("私の名前は" + name + "です。");
      System.out.println (koukou + "の" + bukatu + "に入っています。");
