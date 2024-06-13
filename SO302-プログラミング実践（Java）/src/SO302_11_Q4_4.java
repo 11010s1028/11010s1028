@@ -53,9 +53,9 @@ public class SO302_11_Q4_4 {
 
     String[] koukou = {"A高校", "B高校"};
 
-    String[] yamada = {"山田", "野球部", "国語", "１"};
-    String[] tanaka = {"田中", "テニス部", "数学", "２"};
-    String[] suzuki = {"鈴木", "吹奏楽部", "社会", "３"};
+    String[] yamada = {"山田", "野球部", "国語", "1"};
+    String[] tanaka = {"田中", "テニス部", "数学", "2"};
+    String[] suzuki = {"鈴木", "吹奏楽部", "社会", "3"};
 
     String[][] gakusei= {yamada, tanaka, suzuki};
     
