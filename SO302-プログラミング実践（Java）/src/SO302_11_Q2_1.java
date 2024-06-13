@@ -78,7 +78,7 @@ public class SO302_11_Q2_1 {
     System.out.println (koukou2 + "の" + bukatu2 + "に入っています。\n");
     */
 
-    public void jiko(String name, String koukou, String bukatu) {
+    public void jiko (String name, String koukou, String bukatu) {
       
       System.out.println ("私の名前は" + name + "です。");
       System.out.println (koukou + "の" + bukatu + "に入っています。\n");
