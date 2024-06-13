@@ -47,7 +47,7 @@ class GakuseiClass {
 
   String[] yamada = {"山田", "野球部", "国語"};
   String[] tanaka = {"田中", "テニス部", "数学"};
-  String[] suzuki = {"鈴木","吹奏楽部","社会"}
+  String[] suzuki = {"鈴木","吹奏楽部","社会"};
 
   String[][] gakusei= {yamada, tanaka, suzuki};
 }
