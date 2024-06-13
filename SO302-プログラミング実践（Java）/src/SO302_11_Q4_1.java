@@ -32,18 +32,25 @@ B高校のテニス部に入っています。
 public class SO302_11_Q4_1 {
   public static void main(String[] args) {
 
-    String[] gakusei = new String [4];
+    String[] koukou = {"A高校", "B高校"};
 
-    gakusei[0] = "私の名前は山田です。\nA高校の野球部に入っています。";
-    gakusei[1] = "私の名前は田中です。\nA高校のテニス部に入っています。";
-    gakusei[2] = "私の名前は山田です。\nB高校の野球部に入っています。";
-    gakusei[3] = "私の名前は田中です。\nB高校のテニス部に入っています。";
+    String[] yamada = {"山田", "野球部"};
+    String[] tanaka = {"田中", "テニス部"};
 
-    for (int i = 0; i < 4; i++) {
+    String[][] gakusei= {yamada, tanaka};
+    
+    for(int k = 0; k < 2; k++) { 
+      for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 1; j++) {
 
-      System.out.println (gakusei[i]);
+          System.out.println("私の名前は" + gakusei[i][j] + "です。");
+          System.out.println(koukou[k] + "の" + gakusei[i][j+1] + "に入っています。\n");
+        }
+      }
     }
-
+    
+    
   }
   
 }
+
