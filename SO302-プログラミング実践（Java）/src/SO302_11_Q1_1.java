@@ -75,7 +75,7 @@ public class SO302_11_Q1_1 {
     }
 
     // 高校の情報を再設定
-    public class Koukou2Class{
+    public class Koukou2Class {
       public String Koukou2Method {
 
         return "B高校";
