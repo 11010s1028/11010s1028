@@ -56,11 +56,11 @@ public class SO302_11_Q1_1 {
 
     GakuseiClass gakusei = new GakuseiClass();    
 
-    System.out.println("私の名前は" + name1 + "です。");
-    System.out.println(koukou1 + "の" + gakusei.bukatu1 + "に入っています。");
+    System.out.println ("私の名前は" + name1 + "です。");
+    System.out.println (koukou1 + "の" + gakusei.bukatu1 + "に入っています。");
 
-    System.out.println("私の名前は" + name2 + "です。");
-    System.out.println(koukou1 + "の" + bukatu2 + "に入っています。");
+    System.out.println ("私の名前は" + name2 + "です。");
+    System.out.println (koukou1 + "の" + bukatu2 + "に入っています。");
 
 
     // 高校の情報を再設定
@@ -69,11 +69,11 @@ public class SO302_11_Q1_1 {
     // 自己紹介
     
 
-    System.out.println("私の名前は" + name1 + "です。");
-    System.out.println(koukou2 + "の" + bukatu1 + "に入っています。");
+    System.out.println ("私の名前は" + name1 + "です。");
+    System.out.println (koukou2 + "の" + bukatu1 + "に入っています。");
 
-    System.out.println("私の名前は" + name2 + "です。");
-    System.out.println(koukou2 + "の" + bukatu2 + "に入っています。");
+    System.out.println ("私の名前は" + name2 + "です。");
+    System.out.println (koukou2 + "の" + bukatu2 + "に入っています。");
    }
   
 }
