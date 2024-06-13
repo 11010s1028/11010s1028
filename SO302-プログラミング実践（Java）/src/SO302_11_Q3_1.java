@@ -89,13 +89,15 @@ public class SO302_11_Q3_1 {
 
     for (int i = 0; i < 2; i++){
 
-    System.out.println (koukou[0] + name[i] + bukatu[i]);
+      System.out.println ("私の名前は" + name[i] + "です。");
+      System.out.println (koukou[0] + "の" + bukatu[i] + "に入っています。\n");
     
     }
 
     for (int i = 0; i < 2; i++){
 
-    System.out.println (koukou[1] + name[i] + bukatu[i]);
+      System.out.println ("私の名前は" + name[i] + "です。");
+      System.out.println (koukou[1] + "の" + bukatu[i] + "に入っています。\n");
     
     }
 
