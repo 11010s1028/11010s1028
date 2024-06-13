@@ -42,33 +42,11 @@ B高校の吹奏楽部に入っています。
 
 */
 
-class GakuseiClass {
-  String[] koukou = {"A高校", "B高校"};
-
-  String[] yamada = {"山田", "野球部", "国語"};
-  String[] tanaka = {"田中", "テニス部", "数学"};
-  String[] suzuki = {"鈴木","吹奏楽部","社会"};
-
-  String[][] gakusei= {yamada, tanaka, suzuki};
-}
-
 public class SO302_11_Q5_3 {
   public static void main(String[] args) {
-
-    GakuseiClass gakuseiclass = new GakuseiClass();
-    
-    for(int k = 0; k < 2; k++) { 
-      for(int i = 0; i < 2; i++) {
-        for(int j = 0; j < 1; j++) {
-
-          System.out.println("私の名前は" + gakuseiclass.gakusei[i][j] + "です。");
-          System.out.println(gakuseiclass.koukou[k] + "の" + gakuseiclass.gakusei[i][j+1] + "に入っています。");
-          System.out.println("私の好きな教科は" + gakuseiclass.gakusei[i][j+2] + "です。\n");
-        }
-      }
-    }
-    
     
   }
-  
+}
+
+class Student {
 }
