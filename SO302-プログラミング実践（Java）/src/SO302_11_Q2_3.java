@@ -42,7 +42,7 @@ B高校の吹奏楽部に入っています。
 
 */
 
-public class SO302_11_Q2_2 {
+public class SO302_11_Q2_3 {
   public static void main(String[] args) {
     
     // 高校の情報
