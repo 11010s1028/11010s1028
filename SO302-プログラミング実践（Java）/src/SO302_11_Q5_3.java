@@ -58,7 +58,7 @@ public class SO302_11_Q5_3 {
     GakuseiClass gakuseiclass = new GakuseiClass();
     
     for(int k = 0; k < 2; k++) { 
-      for(int i = 0; i < 2; i++) {
+      for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 1; j++) {
 
           System.out.println("私の名前は" + gakuseiclass.gakusei[i][j] + "です。");
