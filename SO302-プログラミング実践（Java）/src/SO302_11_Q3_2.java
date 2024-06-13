@@ -100,7 +100,8 @@ public class SO302_11_Q3_2 {
     for (int i = 0; i < 2; i++){
 
       System.out.println ("私の名前は" + name[i] + "です。");
-      System.out.println (koukou[0] + "の" + bukatu[i] + "に入っています。\n");
+      System.out.println (koukou[0] + "の" + bukatu[i] + "に入っています。");
+      System.out.println ("私の好きな教科は" + kyouka[i] + "です。\n");
     
     }
 
@@ -111,16 +112,8 @@ public class SO302_11_Q3_2 {
       System.out.println ("私の好きな教科は" + kyouka[i] + "です。\n");
     
     }
+  
+  }
 
-    
-   }
-
-   /*public static void jiko (String name, String koukou, String bukatu) {
-      
-      System.out.println ("私の名前は" + name + "です。");
-      System.out.println (koukou + "の" + bukatu + "に入っています。");
-      System.out.println ("私の好きな教科は" + kyouka[i] + "です。\n");
-      
-    } */
   
 }
