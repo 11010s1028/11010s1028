@@ -85,7 +85,7 @@ public class SO302_11_Q1_1 {
     // 自己紹介
     public class Jiko2Class {
       
-      GakuseiClass gakusei = new GakuseiClass();
+      //GakuseiClass gakusei = new GakuseiClass();
       Koukou2Class koukou2 = new Koukou2Class();
       
       public String JikoMethod {
