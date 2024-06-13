@@ -50,13 +50,13 @@ public class SO302_11_Q2_1 {
     //SO302_11_Q2_1 SO = new SO302_11_Q2_1(); //技：staticじゃないメソッドを使うため
 
 
-    jiko(koukou1,name1,bukatu1);
+    jiko(name1, koukou1, bukatu1);
 
-    jiko(koukou1,name2,bukatu2);
+    jiko(name2, koukou1, bukatu2);
 
-    jiko(koukou2,name1,bukatu1);
+    jiko(name1, koukou2, bukatu1);
 
-    jiko(koukou2,name2,bukatu2);
+    jiko(name2, koukou2, bukatu2);
       
     
 /*
