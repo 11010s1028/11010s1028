@@ -61,11 +61,11 @@ public class SO302_11_Q1_2 {
 
     System.out.println ("私の名前は" + name1 + "です。");
     System.out.println (koukou1 + "の" + bukatu1 + "に入っています。");
-    System.out.println ("好きな教科は" + kyouka1 + "です。\n");
+    System.out.println ("私の好きな教科は" + kyouka1 + "です。\n");
 
     System.out.println ("私の名前は" + name2 + "です。");
     System.out.println (koukou1 + "の" + bukatu2 + "に入っています。");
-    System.out.println ("好きな教科は" + kyouka2 + "です。\n");
+    System.out.println ("私の好きな教科は" + kyouka2 + "です。\n");
 
 
 
@@ -76,10 +76,12 @@ public class SO302_11_Q1_2 {
     
 
     System.out.println ("私の名前は" + name1 + "です。");
-    System.out.println (koukou2 + "の" + bukatu1 + "に入っています。\n");
+    System.out.println (koukou2 + "の" + bukatu1 + "に入っています。");
+    System.out.println ("私の好きな教科は" + kyouka1 + "です。\n");
 
     System.out.println ("私の名前は" + name2 + "です。");
-    System.out.println (koukou2 + "の" + bukatu2 + "に入っています。\n");
+    System.out.println (koukou2 + "の" + bukatu2 + "に入っています。");
+    System.out.println ("私の好きな教科は" + kyouka2 + "です。\n");
    }
   
 }
