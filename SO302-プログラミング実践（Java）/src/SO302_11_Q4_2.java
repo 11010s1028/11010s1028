@@ -40,7 +40,25 @@ B高校のテニス部に入っています。
 public class SO302_11_Q4_2 {
   public static void main(String[] args) {
 
+    String[] koukou = {"A高校", "B高校"};
+
+    String[] yamada = {"山田", "野球部", "国語"};
+    String[] tanaka = {"田中", "テニス部", "数学"};
+
+    String[][] gakusei= {yamada, tanaka};
+    
+    for(int k = 0; k < 2; k++) { 
+      for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 1; j++) {
+
+          System.out.println("私の名前は" + gakusei[i][j] + "です。");
+          System.out.println(koukou[k] + "の" + gakusei[i][j+1] + "に入っています。");
+          System.out.println("私の好きな教科は" + gakusei[i][j+2] + "です。\n");
+        }
+      }
+    }
+    
+    
   }
   
-  // 関数の定義
 }
