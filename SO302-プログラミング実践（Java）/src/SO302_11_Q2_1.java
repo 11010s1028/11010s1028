@@ -47,6 +47,9 @@ public class SO302_11_Q2_1 {
     String bukatu1 = "野球部";
     String bukatu2 = "テニス部";
 
+    //SO302_11_Q2_1 SO = new SO302_11_Q2_1(); //技：staticじゃないメソッドを使うため
+
+
     jiko(koukou1,name1,bukatu1);
 
     jiko(koukou1,name2,bukatu2);
@@ -78,12 +81,14 @@ public class SO302_11_Q2_1 {
     System.out.println (koukou2 + "の" + bukatu2 + "に入っています。\n");
     */
 
-    public void jiko (String name, String koukou, String bukatu) {
+    
+   }
+
+   public static void jiko (String name, String koukou, String bukatu) {
       
       System.out.println ("私の名前は" + name + "です。");
       System.out.println (koukou + "の" + bukatu + "に入っています。\n");
       
     }
-   }
   
 }
